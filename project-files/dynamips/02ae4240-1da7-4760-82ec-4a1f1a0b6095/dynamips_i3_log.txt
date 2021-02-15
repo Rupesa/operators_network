@@ -1,0 +1,22 @@
+Jan 22 20:40:44.795 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Jan 22 20:40:44.795 HYPERVISOR: Started on TCP port = 49535.
+Jan 22 20:40:44.807 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 22 20:40:44.807 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/ruisantos/Desktop/ano4/ara/ARA_89216_89293/project-files/dynamips 
+Jan 22 20:40:44.807 GENERAL: working_dir=/Users/ruisantos/Desktop/ano4/ara/ARA_89216_89293/project-files/dynamips
+Jan 22 20:40:44.807 HYPERVISOR: exec_cmd: ethsw create Op_A_Core 
+Jan 22 20:40:46.359 HYPERVISOR: exec_cmd: nio create_udp udp-afee3491-c59f-4551-ab02-ed72b46babe5 10001 127.0.0.1 10000 
+Jan 22 20:40:46.360 HYPERVISOR: exec_cmd: ethsw add_nio Op_A_Core udp-afee3491-c59f-4551-ab02-ed72b46babe5 
+Jan 22 20:40:46.375 HYPERVISOR: exec_cmd: ethsw set_access_port Op_A_Core udp-afee3491-c59f-4551-ab02-ed72b46babe5 1 
+Jan 22 20:40:46.503 HYPERVISOR: exec_cmd: nio create_udp udp-8f5b5da4-6f27-4734-bd13-005eed2e0f29 10004 127.0.0.1 10005 
+Jan 22 20:40:46.503 HYPERVISOR: exec_cmd: ethsw add_nio Op_A_Core udp-8f5b5da4-6f27-4734-bd13-005eed2e0f29 
+Jan 22 20:40:46.515 HYPERVISOR: exec_cmd: ethsw set_access_port Op_A_Core udp-8f5b5da4-6f27-4734-bd13-005eed2e0f29 1 
+Jan 22 20:40:46.885 HYPERVISOR: exec_cmd: nio create_udp udp-895a4f31-2094-46da-9d6e-2476ea74990f 10008 127.0.0.1 10009 
+Jan 22 20:40:46.885 HYPERVISOR: exec_cmd: ethsw add_nio Op_A_Core udp-895a4f31-2094-46da-9d6e-2476ea74990f 
+Jan 22 20:40:46.897 HYPERVISOR: exec_cmd: ethsw set_access_port Op_A_Core udp-895a4f31-2094-46da-9d6e-2476ea74990f 1 
+Jan 22 20:40:47.547 HYPERVISOR: exec_cmd: nio create_udp udp-694f262d-9c31-4651-8d9e-14a82ccee0a5 10013 127.0.0.1 10012 
+Jan 22 20:40:47.547 HYPERVISOR: exec_cmd: ethsw add_nio Op_A_Core udp-694f262d-9c31-4651-8d9e-14a82ccee0a5 
+Jan 22 20:40:47.560 HYPERVISOR: exec_cmd: ethsw set_access_port Op_A_Core udp-694f262d-9c31-4651-8d9e-14a82ccee0a5 1 
+Jan 22 22:53:20.617 HYPERVISOR: exec_cmd: ethsw delete Op_A_Core 
+Jan 22 22:53:20.706 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 22 22:53:20.751 HYPERVISOR: Stopped.
+Jan 22 22:53:20.751 GENERAL: reset done.

@@ -1,0 +1,26 @@
+//
+// Do any local configuration here
+//
+
+view "datacenter_north" {
+ match-clients { ARASAKA_N; };
+ recursion no;
+ zone "burn-city.org" {
+ type master;
+ file "/etc/bind/burn-city.org-datacenter_north.db";
+ };
+};
+
+view "datacenter_south" {
+ match-clients { MILITECH; MILITECH_N; ARASAKA_S; };
+ recursion no;
+ zone "burn-city.org" {
+ type master;
+ file "/etc/bind/burn-city.org-datacenter_south.db";
+ };
+};
+
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";

@@ -1,0 +1,18 @@
+exten => 234101777,1000,Dial(SIP/ArasakaVoipN,10)
+exten => 289101777,1000,Dial(SIP/ArasakaVoipS,10)
+exten => 289102777,1000,Dial(SIP/Militech,10)
+
+exten => _234101.,1,Answer(500)
+exten => _234101.,n,Playback(demo-congrats)
+exten => _234101.,n,Playback(vm-goodbye)
+exten => _234101.,n,Hangup()
+
+exten => _289101.,1,Answer(500)
+exten => _289101.,n,Playback(demo-congrats)
+exten => _289101.,n,Playback(vm-goodbye)
+exten => _289101.,n,Hangup()
+
+exten => _289102.,1,Answer(500)
+exten => _289102.,n,Playback(demo-congrats)
+exten => _289102.,n,Playback(vm-goodbye)
+exten => _289102.,n,Hangup()
